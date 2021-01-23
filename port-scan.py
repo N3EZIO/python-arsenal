@@ -21,6 +21,6 @@ def port_scan(ip,port):
 
 		print('[-] port {} is not open'.format(port))
 	 	
-for i in range(80):	
+for i in range(81):	
 	port_scan(ip,port=i)
 
